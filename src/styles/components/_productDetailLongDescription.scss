@@ -1,0 +1,15 @@
+.product__long__description{
+    h1 {
+        font-size: 35px;
+        font-family: $main-font-family;
+    }
+    span, div, p {
+        font-size: 24px !important;
+        font-family: $main-font-family !important;
+    }
+    font-size: 24px !important;
+    font-family: $main-font-family !important;
+    padding-left:35px; 
+    padding-right:35px;
+    margin-bottom: 50px; 
+}

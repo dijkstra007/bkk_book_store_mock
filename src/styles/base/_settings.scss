@@ -1,0 +1,34 @@
+// Colors
+@font-face {
+    font-family: "db_heaventregular";
+    src: url("https://s3-ap-southeast-1.amazonaws.com/nineti9/font/DBHeavent.woff")
+        format("woff2"),
+      url("https://s3-ap-southeast-1.amazonaws.com/nineti9/font/DBHeavent.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+$dark-grey: #000000;
+$grey: #95989A;
+$softgrey: #F1EDF4;
+$off-white: #FFFFFF;
+$main-pink: #FD97A0;
+$deep-pink: #F44A88;
+$main-softpink: #FFDCE4;
+$main-aqua: #CAFAF8;
+$main-blue: #77BCD7;
+$main-softyellow: #FCE5A8;
+$main-yellow: #FFC13F;
+$main-bluegrey:#e8e9e9;
+// Font Size
+$font-size-large: 1.8rem;
+$font-size-small: 1.4rem;
+// Spacing
+$s-size: 1.2rem;
+$m-size: 1.6rem;
+$l-size: 3.2rem;
+$xl-size: 4.8rem;
+$desktop-breakpoint: 45rem;
+$main-font-family: 'db_heaventregular';
+$main-font-family-light: DB Heavent Light;

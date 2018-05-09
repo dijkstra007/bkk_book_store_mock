@@ -1,0 +1,74 @@
+.ratingbox {
+    padding: 20px 1px 10px 1px;
+    font-size: 20px;
+}
+.hr__rating{
+    border: 0.5px solid #95989A;
+    width: 100%;
+    margin: 0px;
+}
+.img__rating {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.comment_rating{
+    padding: 0px 0px 0px 5px;
+    display: inline-block;
+    width: 100%;
+    h3{
+        margin: 0px;
+    }
+    p{
+        margin: 0px;
+    }
+}
+.star__username{
+    display: inline-block;
+    p{
+        display: inline-block;
+        margin: 0px;
+    }
+    
+}
+.product__rating_star{
+    width: auto;
+    display: inline-block;
+    margin-right: 10px
+}
+.comment__box__title {
+    display: inline-block;
+    font-size: 24px;
+}
+.comment__box{
+    padding: 10px;
+}
+.comment__box__displayNickname{
+    border: 1px solid $grey;
+    background-color:$main-bluegrey;
+    margin: 0px 5px 5px 5px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    padding: 6px ;
+    color: $grey;
+}
+.comment__box__displayEmail{
+    border: 1px solid $grey;
+    background-color: $main-bluegrey;
+    margin: 0px 5px 5px 5px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    padding: 6px ;
+    color: $grey;
+}
+.review_button {
+    width: 130%;
+    height: 2em;
+    font-size: 20px;
+    background-color: $main-pink;
+    margin: 0px 0px 10px 0px;
+  }

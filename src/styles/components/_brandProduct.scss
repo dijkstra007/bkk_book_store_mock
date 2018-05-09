@@ -1,0 +1,17 @@
+.brand_recommend_title{
+    font-size: 28px;   
+}
+.brand_box_tile{
+ background-color: $main-pink;
+ font-size: 24px;
+ text-align: center;
+ color: white;
+ span {
+     padding: 0 10px;
+     cursor: pointer;
+ }
+}
+.brand_box_container{
+    border: solid 1px #95989A;
+    border-top: #FD97A0;
+}

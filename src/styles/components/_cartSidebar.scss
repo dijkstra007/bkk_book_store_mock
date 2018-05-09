@@ -1,0 +1,174 @@
+.cart__sidebar__body {
+    width: 410px;
+    max-height: 450px;
+    margin-top: 50px;
+    overflow: auto;
+    .mycart_product_name {
+        color: black;
+        font-size: 20px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        line-height: 108%;
+    }
+    .mycart_product_price {
+        color: #FD97A0;
+        font-size: 20px;
+    }
+    .cart__text__inline {
+        display: inline-block;
+        margin: 0px;
+        color: #000000;
+        margin-right: 5px;
+        font-size: 16px;
+        padding: 0px;
+    }
+    .quantity__num {
+        padding: 0px 5px 0px 5px;
+        border-bottom: 1px solid #95989A;
+        border-top: 1px solid #95989A;
+        color: #000000;
+        font-size: 16px;
+        height: 31px;
+        
+    }
+    .minus-btn {
+        width: auto;
+        font-size: 16px;
+        padding: 0px 5px;
+    }
+    .plus-btn {
+        width: auto;
+        font-size: 16px;
+        padding: 0px 5px;
+    }
+    .cart__remove__button {
+        font-size: 16px;
+        background-color: #FFFFFF;
+        color: #000000;
+        margin: 0px 5px 10px 5px;
+        border: 1px solid #95989A;
+        padding: 5px 10px 5px 10px;
+    }
+    .body__cart {
+        display: table;
+        height: 0;
+        width: auto;
+        margin: 0px 0px 0px 0px;
+        padding-top: 10px; 
+    }
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        outline: 0;
+        box-shadow: none;
+        border: 0 !important;
+        background: #fff;
+        background-image: none;
+        font-size: 18px !important;
+        font-family: $main-font-family;
+      }
+      /* Custom Select */
+      .select {
+        font-size: 14px !important;
+        position: relative;
+        padding: 0px 0px 0px 0px;
+        display: inline-flex;
+        // width: 100%;
+        height: 25px;
+        background: #fff;
+        overflow: hidden;
+        border: 1px solid $grey;
+        margin: 0px 10px 10px 5px;
+      }
+      select {
+        font-size: 16px !important;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0 0 0 5px;
+        color: #000000;
+        cursor: pointer;
+        span {
+          display: inline-block;
+        }
+        option {
+            font-size: 16px !important;
+        }
+      }
+      select::-ms-expand {
+        font-size: 16px !important;
+        display: none;
+        width: 100%;
+      }
+      .select::after {
+        content: "V";
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        // padding: 5px 10px 0px 10px;
+        padding: 2.5% 10px;
+        background: #ffffff;
+        border-left: 1px solid $grey;
+        pointer-events: none;
+      }
+      
+      /* Transition */
+      .select:hover::after {
+        color: $grey;
+      }
+      .select::after {
+        -webkit-transition: 0.25s all ease;
+        -o-transition: 0.25s all ease;
+        transition: 0.25s all ease;
+      }
+      .grey-line {
+        height: 1px;
+        width: auto;
+        background: #95989A;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+   
+
+
+} 
+.cart__sidebar__title {
+    width: 420px;
+    text-align: center;
+    color: white;
+    background-color: $main-pink;
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 28px;
+}
+.cart__sidebar__title__notooltip {
+    text-align: center;
+    color: white;
+    background-color: $main-pink;
+    padding: 0px;
+    top: 0px;
+    left: 0px;
+    font-size: 28px;
+}
+.cart__sidebar__button {
+    width:40%;
+    font-size: 26px;
+    height: 40px;
+    background-color: $main-pink;
+    padding: 0px 12px !important;
+  }
+.cart__sidebar__body__button{
+    padding: 5px 10px 5px 0px;
+    text-align: right;  
+    border-top: 1px solid $grey; 
+}
+.cart__sidebar__close {
+    display: inline-block;
+    text-align: right;
+}

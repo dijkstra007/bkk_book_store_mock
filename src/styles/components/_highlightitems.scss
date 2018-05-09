@@ -1,0 +1,71 @@
+.hightlight-main-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  margin:  0px;
+}
+.highlight-slider-body {
+  display: flex;
+  flex-direction: column;
+}
+.hightlight-carousel__body {
+  display: flex;
+}
+.hightlight-product-list-container {
+  display: flex;
+  // border-top: 1px solid $grey;
+  padding-top: 2rem;
+}
+
+.hightlight-product-list-container-testComponent {
+  display: flex !important;
+  // border-top: 1px solid $grey;
+  background: rgb(142, 130, 130);
+  flex-direction: row;
+  padding-top: 2rem;
+}
+
+.highlight-title-container {
+  display: flex;
+  justify-content: left;
+  margin: 0px 55px;
+  font-size: 35px;
+  border-bottom: solid 1px $grey;
+}
+.hightlight-title {
+  color: $main-pink;
+  margin-right: 1rem;
+  font-family: db_heavent_med;
+}
+
+.hightlight-next-button {
+  color: $main-pink;
+  border: none;
+  font-size: 35pt;
+  background: none;
+  height: 250px;
+}
+.hightlight-prev-button {
+  color: $main-pink;
+  border: none;
+  font-size: 35pt;
+  background: none;
+  height: 250px;
+}
+.hightlight-ads-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0rem;
+}
+
+.hightlight-ads-image-body {
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+}
+.hightlight-carousel{
+  width: 90%;
+}

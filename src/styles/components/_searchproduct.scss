@@ -1,0 +1,37 @@
+.search-product-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // margin-left: 15rem;
+  background: none;
+}
+.search-product-shop-button {
+  background: $main-pink;
+  color: white;
+  height: 30px;
+  width: 140px;
+  border: none;
+  font-size: 26px;
+  font-family: db_heavent_med;
+}
+.search-product-input {
+    height: 30px;
+    width: 190px;
+  margin-left: 2rem;
+  padding: 0px 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: $main-font-family;
+  font-size: 24px;
+}
+.search-product-input::placeholder {
+  color : #b9b9b9;
+  opacity: 1;
+}
+.search-product-search-button {
+  background: none;
+  border: none;
+  height: 25px;
+  margin-left: 0.5rem;
+}

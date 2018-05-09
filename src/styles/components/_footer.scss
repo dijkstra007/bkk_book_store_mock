@@ -1,0 +1,80 @@
+.footer__body{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 100%;
+    // position: fixed;
+    // bottom: 0px;
+}
+
+.footer__color{
+    min-width: 1200px;
+    background-color: black;
+    font-family: $main-font-family;
+    font-size: 20px; 
+    color: white;
+    padding: 0% 0% 0% 9%;
+    .footer {
+        width: 20%;
+        display: inline-block;
+        text-align: left;
+        vertical-align: top;
+        .logo {
+            margin-top: 25px;
+        }
+        p {
+            margin-top:0;
+            margin-bottom: 0;
+            line-height: 120%;
+            
+        }
+        h3 {
+            font-size: 26px;
+            font-family: 'db_heavent_med';
+        }
+    }
+    .left {
+        margin-top: $xl-size;
+        width: 60%;
+        margin: 10px 40px 10px 0px;
+        display: inline-block;
+    }
+    .right {
+
+        margin-top: $xl-size;
+        width: 25%;
+        margin: 10px 40px 10px 17px;
+        display: inline-block;
+        text-align: right;
+    }
+}
+.fb-page {
+ margin-left: 30px;
+ height: 180px;
+}
+
+.footer-bottom-container{
+    display: flex;
+    margin-top: $xl-size;
+}
+.rec__contact {
+    background-color: $main-pink;
+    color: $off-white;
+    font-size: 35px;
+    font-family: 'db_heavent_med';
+}
+.contact__body__productCategory {
+    text-align: center;
+}
+.payment__body__productCategory {
+    text-align: left;
+    border-left: 1px solid $grey;
+}
+.icon_contact_footer{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+.footer_content_pointor{
+    cursor: pointer;
+}

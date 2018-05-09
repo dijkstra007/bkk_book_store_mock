@@ -1,0 +1,26 @@
+.div-mini-menu {
+    margin: 10px 0px;
+}
+.mini-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 35px;
+    margin: 5px 10px;
+    font-size: 20px;
+}
+.mini-menu-title {
+    text-align: center;
+    width: 100px;
+    margin: 10px 0px 0px 0px;
+    line-height: 20px;
+}
+.mini-menu-icon {
+    cursor: pointer;
+    display: block;
+    // margin: auto;
+    width: 42px;
+    height: 36px;
+}

@@ -1,0 +1,49 @@
+.payslip-input {
+  font-family: "db_heaventregular";
+  font-size: 22px;
+  width: 100%;
+  border: solid 1px $grey;
+  padding: 5px 10px;
+  color: $grey;
+}
+.payslip-input-option{
+  font-family: "db_heaventregular";
+  font-size: 22px;
+  color: $grey;
+  cursor: pointer !important;
+}
+.payslip-structure {
+  border: solid 1px $main-pink;
+  width: 100%;
+}
+.payslip-title {
+  background: $main-pink;
+  color: $off-white;
+  text-align: center;
+  font-size: 24px;
+  font-family: "db_heavent";
+}
+.payslip-detail {
+  background: $off-white;
+  padding: 50px;
+  font-size: 20px;
+  font-family: "db_heavent";
+}
+.payslip-warning {
+  font-size: 24px;
+  color: #ff0000;
+}
+.button-upload-slip {
+  padding: 5px 30px;
+  background: $off-white;
+  border: solid 1px $grey;
+  border-radius: 10px;
+  font-size: 18px;
+  color: $grey;
+  font-family: db_heavent_thin;
+}
+.row {
+    display: inline-flex;
+    width: 100%;
+}
+

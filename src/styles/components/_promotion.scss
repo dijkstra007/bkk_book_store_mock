@@ -1,0 +1,18 @@
+.promotion-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.promotion-title {
+    margin: 30px 0px;
+}
+
+.img__promotion {
+    
+    // height: 400px;
+}
+
+.img__promotion:hover {
+    box-shadow: 5px 5px 10px $grey;
+}

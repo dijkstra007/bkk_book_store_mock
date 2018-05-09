@@ -1,0 +1,209 @@
+.process_header__body {
+ text-align: center;
+//  margin: 50px 30px 10px 30px;
+}
+.process__button {
+    width: 200px;
+    font-size: 24px;
+    background-color: $grey;
+    margin: 10px;
+}
+.address__body {
+    font-size: 20px;
+    input, textarea {
+        font-size: 20px;
+        font-family: $main-font-family;
+    }
+    p{
+        margin: 0px;
+        text-align: right;
+    }
+}
+.address__row {
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        outline: 0;
+        box-shadow: none;
+        border: 0 !important;
+        background: #fff;
+        background-image: none;
+        font-size: 20px !important;
+        font-family: $main-font-family;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0 12px 0 12px;
+        color: $grey;
+        cursor: pointer;
+        span {
+          display: inline-block;
+        }
+        option {
+            cursor: pointer !important;
+            font-family: $main-font-family !important;
+        }
+      }
+      select::-ms-expand {
+        display: none;
+        width: 100%;
+      }
+      /* Custom Select */
+      .select {
+        font-size: 20px !important;
+        position: relative;
+        padding: 5px 0px 0px 0px;
+        display: inline-flex;
+        height: 35px;
+        background: #fff;
+        overflow: hidden;
+        border: 1px solid #ccc;
+        margin: 0px 0px 0px 0px;
+        color: $dark-grey;
+      }
+      .select::after {
+        content: "V";
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        // padding: 3px 10px 0px 10px;
+        padding: 2.5% 10px;
+        background: #ffffff;
+        border-left: 1px solid #ccc;
+        pointer-events: none;
+      }
+      
+      /* Transition */
+      .select:hover::after {
+          color: $grey;
+        }
+        .select::after {
+            -webkit-transition: 0.25s all ease;
+            -o-transition: 0.25s all ease;
+            transition: 0.25s all ease;
+        }
+    margin: 5px 0px 5px 0px;
+        
+}
+.carry_option {
+    font-size: 20px;
+    label{
+        margin-left: 5px;
+        margin-right: 20px;
+    }
+}
+.carry_option_THP {
+    font-size: 20px;
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.carry_option__subtitle {
+    color: $grey;
+    display: inherit;
+}
+.address__table {
+    height: auto;
+    margin: 10px 0px 100px 0px;
+    padding-right: 0px;
+  
+    .table__title {
+        color: $main-pink;
+        font-size: 28px;
+        text-align: center;
+    }
+  }
+.choose__address__title {
+    font-size: 24px;
+    color: $main-pink;
+}
+.choose__address__body{
+    margin: 30px 5px 30px 30px;
+}
+.choose__address__container{
+    border: 1px solid $grey;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    height: 253px;
+
+    p {
+        margin: 0px;
+        overflow-wrap: break-word;
+    }
+}
+.choose__address__edit_delete {
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+    font-size: 20px;
+    a {
+        color: $grey;
+        text-decoration: none;
+        padding-right: 10px;
+    }
+}
+.choose__address__button {
+    width: 150px;
+    padding: 7px;
+    font-size: 24px;
+    background-color: $grey;
+    margin-top: 10px;
+    bottom: 10px;
+}
+.choose__address__button__selected {
+    background-color: $main-pink;
+    text-align: center;
+}
+.add__more__address{
+    height: 253px;
+    border: 1px solid $grey;
+    margin: 10px;
+    padding-left: 35%;
+    font-size: 24px;
+    color: $main-pink;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+    p {
+        margin: 0px;
+    }
+    button {
+        border: none;
+        background: no-repeat;
+    }
+
+}
+.payment__body {
+    padding: 20px 100px 20px 100px;
+    font-size: 26px;
+}
+.paymeny__by__cash {
+    font-size: 24px;
+    padding-left:50px; 
+}
+.check__status {
+    color: $main-pink;
+}
+.img__bank{
+    width:36px;
+    height:26px;
+    padding-right: 10px 
+}
+.warning__carry{
+ font-size: 18px;
+ color: red;
+}
+.choose__address__button__body{
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    right: 30px;
+    padding-bottom: 10px;
+    text-align: right;
+}

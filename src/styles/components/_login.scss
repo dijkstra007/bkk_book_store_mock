@@ -1,0 +1,102 @@
+
+
+.login-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 410px;
+    padding: 20px;
+    margin: 0 auto;
+    font-family: $main-font-family;
+}
+
+.login-header {
+    font-size: 300%;
+    font-family: $main-font-family;
+    color: $main-pink;
+    height: 6rem;
+    margin-left: $m-size;
+}
+.login-welcome {
+    font-size: 180%;
+    font-family: $main-font-family;
+    margin-bottom: -1rem;
+    margin-left: $m-size;
+}
+.login-input-container {
+    display:flex;
+    justify-content: flex-start;
+    margin-bottom: $m-size;
+    input[type=email] {
+        padding: 5px 10px;
+        width: 30rem;
+        font-family:$main-font-family;
+        font-size: 19px;
+    }
+    input[type=text] {
+        padding: 5px 10px;
+        width: 30rem;
+        font-family: $main-font-family;
+        font-size: 19px;
+    }
+    input[type=password] {
+        padding: 5px 10px;
+        width: 30rem;
+        font-family: $main-font-family;
+        font-size: 19px;
+    }
+    .input-form-error{
+        border: 1px solid red;
+    }
+    .input-form-error::-webkit-input-placeholder{
+        color:red;
+    }
+
+}
+.login-forget-password-container{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1.5rem;
+    font-size: 20px;
+}
+.login-input-label{
+    display: flex;
+    font-size: 20px;
+    width: 5.5rem;
+}
+
+.login-register-button{
+    font-size: 22px;
+    background: none;
+    border: none;
+    font-family: $main-font-family;
+    text-decoration: underline;
+    color: $main-pink;
+}
+.login-button-container{
+    display:flex;
+    margin-bottom: $m-size;
+    margin-top: $m-size;
+}
+.login-normal-button{
+    border : none;
+    border-radius: 0;
+    background: $main-pink;
+    font-size: 20px;
+    width:175px;
+    font-family: $main-font-family;
+}
+
+.login-facebook-button{
+    border : none;
+    border-radius: 0;
+    background: #4267b2;
+    font-size: 20px;
+    width:175px;
+    font-family: $main-font-family;
+}
+.login-footer-container {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}

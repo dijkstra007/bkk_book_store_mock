@@ -1,0 +1,117 @@
+.purchaseHistory__body {
+    margin: 50px 0px 10px 0px;
+    font-size: 22px;
+}
+.purchaseHistory__table {
+
+    border: 1px solid $grey;
+    padding: 20px 10px 20px 10px;
+    border-top: 0px;
+    overflow: hidden;
+  }
+  .table__history__title {
+    background-color: $main-pink;
+    font-size: 28px;
+    color: white;
+    padding: 0px 20px 0px 20px;
+  }
+  .purchaseHistory__detail__button {
+    font-size: 18px;
+    width: 100%;
+    background-color: white;
+    color: $main-pink;
+    border: 1px solid $grey;
+    padding: 2px;
+    font-family: db_heavent_med;
+    a{
+      color: $main-pink;
+      text-decoration: none;
+      
+    }
+  }
+  .purchaseHistory__table__body {
+    width: 100%;
+    font-size: 20px;
+    border-collapse: collapse;
+  }
+  .purchaseHistory__table__title {
+    width: 16.67%;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .purchaseHistory__table__column {
+    width: 16.67%;
+    text-align: center;
+    padding: 10px;
+  }
+  .purchaseHistory__table__row__title {
+    margin-top: 20px;
+    border-bottom: 1px solid $softgrey;
+    width: 100%;
+    font-family: db_heavent_med;
+    font-size: 20px;
+  }
+  .purchaseHistory__table__row {
+    margin-top: 20px;
+    border-bottom: 1px solid $softgrey;
+    width: 100%;
+    font-family: db_heavent_thin;
+    font-size: 20px;
+
+  }
+  .purchaseHistory__table__row:hover {
+    background-color: $softgrey;
+    cursor: pointer;
+    font-family: db_heavent_med;
+    font-size: 20px;
+  }
+
+  .filter__purchase__body{
+      text-align: right;
+      font-size: 20px;
+      margin-bottom: 30px;
+  }
+  .purchaseHistory__detail__address {
+    width: 100%;
+    font-size: 20px;
+    margin: 30px 0px 30px 0px;
+    font-family: db_heavent_thin;
+    p {
+      margin: 0px;
+    }
+  }
+  .purchaseHistory__detail__body{
+    margin: 0px 50px 10px 50px;
+    font-size: 22px;
+  }
+  .purchase__cart__body {
+    
+    width: 100%;
+    margin: 5px;
+  }
+  .purchase__summarize__text {
+    font-size: 26px;
+  }
+  .payslip__modal{
+    // visibility: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width                 : 80%;
+    height                : 70%;
+    overflow: auto;
+    text-align: center;
+  }
+  .payslip__modal__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+  }

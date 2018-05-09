@@ -1,0 +1,171 @@
+.userInfomation__body {
+ 
+  margin: 50px 0px 10px 0px;
+  font-size: 22px;
+}
+.user-info-main {
+  width: 100%;
+  text-align: center;
+  height: auto;
+  border: 1px solid $grey;
+  padding: 2% 1% 10% 1%;
+  font-size: 24px;
+}
+.user-info {
+  height: auto;
+  border: 1px solid $grey;
+  border-top: $main-pink;
+  padding: 1%;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+.user-info-title {
+  padding: 0px 20px 0px 20px;
+  text-align: left;
+  font-size: 24px;
+  background: $main-pink;
+  color: $off-white;
+}
+.user-info-subtitle {
+  text-align: left;
+  font-size: 26px;
+  color: $main-pink;
+  padding: 0% 1%;
+  border-bottom: 1px solid $softgrey;
+  font-family: db_heavent_thin;
+}
+.user-info-content {
+  padding: 3%;
+}
+.user-info-detail {
+  border-collapse: collapse;
+  text-align: left;
+  padding: 2% 0%;
+  margin: 0;
+  font-family: db_heavent_thin;
+  font-size: 18px;
+}
+.check-status {
+  margin: 30px 0px 5px 0px;
+  font-family: db_heavent_med;
+  font-size: 20px;
+}
+.account-button {
+  
+  font-size: 18px;
+  color: $dark-grey;
+  background: $off-white;
+  border: 1px solid $grey;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.account-button-pink {
+  font-size: 18px;
+  color: $off-white;
+  background: $main-pink;
+  border: 1px solid $main-pink;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-family: db_heavent_med;
+}
+.input-form-title {
+  text-align: right;
+  padding: 1%;
+}
+.input-form {
+  text-align: left;
+  padding: 1%;
+}
+.user-info-input {
+  padding: 1% 3%;
+  width: 100%;
+  font-family: $main-font-family;
+  font-size: 22px;
+}
+.vertical-center {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+}
+.user-info-pink {
+  color: $main-pink;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: db_heavent_thin;
+}
+.dis-inline-block {
+  display: inline-flex;
+  width: 100%;
+  padding: 10px;
+}
+.col-5 {
+  width: 5%;
+}
+.col-10 {
+  width: 10%;
+}
+.col-15 {
+  width: 15%
+}
+.col-20 {
+  width: 20%;
+}
+.col-25 {
+  width: 25%;
+}
+.col-30 {
+  width: 30%;
+}
+.col-35 {
+  width: 35%;
+}
+.col-40 {
+  width: 40%;
+}
+.col-50 {
+  width: 50%;
+}
+.col-60 {
+  width: 60%;
+}
+.col-70 {
+  width: 70%;
+}
+.col-75 {
+  width: 75%;
+}
+.col-85 {
+  width: 85%
+}
+.user__membership {
+  font-size: 18px;
+  margin: 0px;
+  font-family: db_heavent_thin;
+}
+.user__displayname{
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+.user__long__displayname{
+  overflow-wrap: break-word;
+  font-family: db_heavent_med;
+  font-size: 26px;
+  color: $main-pink;
+  margin: 0% 0% 0% 0%;
+}
+.user__check__tracking {
+  // width: 100%;
+  font-size: 20px;
+  color: $dark-grey;
+  background: $off-white;
+  border: 1px solid $grey;
+  padding: 0px;
+}
+.table__user__profile{
+  background-color: white;
+  font-size: 28px;
+  color: white;
+  padding: 0px 20px 0px 20px;
+}

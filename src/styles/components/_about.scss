@@ -1,0 +1,123 @@
+.about-search {
+    margin: 20px 0px;
+    padding-left: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-search-input {
+    padding: 5px 20px;
+    border: solid 1px $grey;
+    font-family: $main-font-family;
+    font-size: 24px;
+    width: 270px;
+}
+.about-search-button {
+    height: 30px;
+    border: none;
+    background: none;
+    margin-left: 5px;
+}
+.about__body {
+    margin-top: 30px;
+    padding: 0px 150px;
+    font-size: 22px;
+}
+.about-sidebar-main {
+  width: 100%;
+  text-align: center;
+  height: auto;
+  border: 1px solid $grey;
+  padding: 2% 1% 10% 1%;
+  margin-top: 0px;
+}
+.about-sidebar-container {
+  text-align: left;
+  padding: 20px 0px 0px 40px;
+}
+.about-sidebar-title {
+  font-size: 26px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.about-sidebar-menu {
+  cursor: pointer;
+}
+.about-content-title {
+  padding-left: 50px;
+  text-align: left;
+  font-size: 26px;
+  background: $main-pink;
+  color: $off-white;
+}
+.about-content-container {
+  padding: 40px 50px;
+  border: solid 1px $grey;
+  border-top: $main-pink;
+  font-size: 22px
+}
+.about-content-container-center {
+  text-align: center;
+}
+.about-content-container-left {
+    text-align: left;
+}
+.about-content-container-right {
+    text-align: right;
+}
+.about-content-bold {
+    font-size: 26px;
+    font-weight: bold;
+}
+.about-content-link {
+    text-decoration: none;
+    color: $dark-grey;
+    cursor: pointer;
+}
+.about-content-input {
+    width: 100%;
+    font-family: $main-font-family;
+    font-size: 22px;
+    padding: 5px 20px;
+    margin: 10px 0px;
+}
+.about-content-button-white {
+    border: solid 1px $grey;
+    border-radius: 10%;
+    background: $off-white;
+    padding: 1px 3px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.about-content-button-pink {
+    border: none;
+    padding: 5px 10px;
+    background: $main-pink;
+    color: $off-white;
+    font-size: 24px;
+    cursor: pointer;
+}
+.about-content-title-padding {
+    font-size: 26px;
+    font-weight: bold;
+    padding: 30px 0px 5px 0px;
+}
+.about-content-title-nopad {
+    font-size: 26px;
+    font-weight: bold;
+}
+.about-ContactUs-form {
+    padding: 0px 100px;
+}
+.about-ContactUs-contact {
+    width: 100%;
+    display: flex;
+    padding: 10px 20px;
+}
+.about-ContactUs-contact-component {
+    width: 50%;
+}
+.about-FAQ-answer {
+    margin-bottom: 50px;
+}

@@ -1,0 +1,113 @@
+.product__body {
+    padding: 50px 90px 50px 90px;
+    h1{
+        text-align: center;
+    }
+    
+}
+.product-highlight__body {
+    width:80%;
+}
+.product {
+    margin: 0;
+    overflow: auto;
+}
+
+.product__price {
+    display: inline-block;
+    line-height: 34px;
+    font: 25px kanit,sans-serif;
+    color: #d787df;
+}
+
+.product-action {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #9d9d9d;
+}
+
+.product__image {
+    height: 220px;
+    padding: 15px;
+    background: white;
+}
+.product-list {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.product-list__item {
+    margin-top: 20px;
+    list-style: none;
+    width: 32%;
+    border: 1px solid #dcdcdc;
+    padding-top: 20px;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.flex-center {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.flex>.product-list-item {
+    flex: 1;
+}
+.product__button-wrap  {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    position: relative;
+    cursor: pointer;
+    top: 0;
+    padding: 0 22px;
+    border: 0px solid rgb(255,255,255);
+    font: normal normal bold 20px/50px Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #9d77ba;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .product__button-wrap :hover {
+    color: #9d77ba;
+    background: #ffffff;
+  }
+
+  .order_button {
+    position: relative;
+    top: 50%;
+    left: 75%;
+  }
+  .product__summarize{
+      width: 100% !important;
+  }
+  .product__slider {
+     width:20% !important;
+     height: auto;
+  }
+
+  .product-men {
+    margin: top;
+    margin-top: 2em;
+}

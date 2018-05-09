@@ -1,0 +1,23 @@
+.product__tag__title {
+    font-size: 24px;
+    margin: 0px;
+    font-family: db_heavent_thin;
+}
+.product__tag__theme {
+    color: $dark-grey !important;
+    background-color: $off-white !important;
+    border: 1px solid $dark-grey;
+}
+
+.product__tag__small {
+    font-size: 18px!important;
+}
+.product__tag__tag {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    margin:3px; 
+}

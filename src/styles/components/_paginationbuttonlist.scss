@@ -1,0 +1,13 @@
+//pblb = pagination_button_list_button
+
+[class*=pblb_] {
+    background: none;
+    font-size: 18px;
+    font-family: 'db_heavent_med'
+}
+.pblb_active {
+    border: 1px solid $grey;
+}
+.pblb_inactive{
+    border: none;
+}

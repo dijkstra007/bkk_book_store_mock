@@ -1,0 +1,47 @@
+.failPage_body {
+    background: $main-pink;
+    height: 1008px;
+    display: flex;
+    position: relative;
+}
+.failPage_container {
+    height: 768px;
+    display: flex;
+    position: relative;
+    margin: auto;
+}
+.fail_area {
+    position: absolute;
+    width: 100%;
+    padding: 70px 275px;
+}
+.fail_container {
+    text-align: center;
+}
+.fail_title_text {
+    font-size: 80px;
+    font-family: 'db_heavent_med';
+    color: $main-pink;
+}
+.fail_default_text {
+    font-size: 28px;
+    font-weight: bold;
+}
+.fail_detail_text {
+    font-size: 26px;
+    font-family: 'db_heavent_li';
+    color: #ff0000;
+}
+.fail_button {
+    border: none;
+    background: $main-pink;
+    padding: 10px 75px;
+    font-size: 28px;
+    color: #ffffff;
+}
+.fail_vertical_child {
+    display: flex;
+  justify-content: center;
+//   flex-direction: column;
+// //   height: 400px;
+}

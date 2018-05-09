@@ -1,0 +1,39 @@
+.mycart_product_name {
+  color: black;
+  font-size: 26px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  line-height: 108%;
+  font-family: db_heavent_med;
+}
+.mycart_product_image {
+  cursor: pointer;
+}
+.mycart_product_container {
+  display: flex;
+  justify-content: space-between;
+  height: 20rem;
+}
+.mycart_product_text {
+  font-size: 24px;
+  color: black;
+  margin-right: 5px;
+}
+.mycart_product_price {
+  color: $main-pink;
+  font-size: 26px;
+  font-family: db_heavent_med;
+}
+
+.mycart_product_delte_button{
+    background: none;
+    color:black;
+    border: 1px solid black;
+}
+
+.mycart_product_price_button_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+}

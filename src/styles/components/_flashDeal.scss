@@ -1,0 +1,35 @@
+.flash-deal-structure {
+    border: solid 1px $softgrey;
+}
+.flash-deal-title {
+    background: $deep-pink;
+    color: $off-white;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    width: 100%;
+}
+.flash-deal-logo {
+    padding-top: 10px;
+    border: solid 2px $deep-pink;
+}
+.flash-deal-time {
+    display: inline-flex;
+    padding-left: 40px;
+    font-size: 30px;
+}
+.flash-deal-time-box {
+    padding: 0px 15px;
+    background: $off-white;
+    color: $dark-grey;
+    font-weight: bold;
+    height: 100%;
+}
+.flash-deal-title-right {
+    text-align: right;
+    font-size: 32px;
+}
+.flash-deal-vertical-center {
+    display: table-cell;
+    vertical-align: middle;
+}

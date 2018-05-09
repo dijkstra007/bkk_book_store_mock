@@ -1,0 +1,138 @@
+.register-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 410px;
+    padding: 20px;
+    margin: 0 auto;
+    font-family: $main-font-family;
+}
+
+.register-header {
+    font-size: 300%;
+    font-family: $main-font-family;
+    color: $main-pink;
+    height: 6rem;
+    margin-left: $m-size;
+}
+.register-welcome {
+    font-size: 180%;
+    font-family: $main-font-family;
+    margin-bottom: -1rem;
+    margin-left: $m-size;
+}
+.register-input-container {
+    display:flex;
+    justify-content: flex-start;
+    margin-bottom: $m-size;
+    input[type=email] {
+        padding: 5px 10px;
+        width: 30rem;
+        font-family: $main-font-family;
+        font-size: 19px;
+    }
+    input[type=text] {
+        padding: 5px 10px;
+        width: 30rem;
+        font-family: $main-font-family;
+        font-size: 19px;
+    }
+    input[type=password] {
+        padding: 5px 10px;
+        width: 30rem;
+        font-family: $main-font-family;
+        font-size: 19px;
+    }
+    .input-form-error{
+        border: 1px solid red;
+    }
+    .input-form-error::-webkit-input-placeholder{
+        color:red;
+    }
+}
+.register-forget-password-container{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1.5rem;
+    font-size: 20px;
+}
+.register-input-label{
+    display: flex;
+    font-size: 20px;
+    width: 5.5rem;
+}
+
+.register-register-button{
+    background: none;
+    border: none;
+    font-family: $main-font-family;
+    text-decoration: underline;
+    color: $main-pink;
+}
+.register-button-container{
+    display:flex;
+}
+.register-normal-button{
+    border : none;
+    border-radius: 0;
+    background: $main-pink;
+    font-size: 20px;
+    width:175px;
+    font-family: $main-font-family;
+}
+
+.register-facebook-button{
+    border : none;
+    border-radius: 0;
+    background: #4267b2;
+    font-size: 20px;
+    width:175px;
+    font-family: $main-font-family;
+}
+.register-footer-container {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+.register-captcha-image {
+    width: 33.33%;
+    height: 4.4rem;
+    border:none;
+}
+.register-input-captcha-container{
+    display: flex;
+    justify-content: flex-start;
+    margin-left:5.5rem;
+    margin-bottom: $l-size;
+    border: 1px solid $softgrey;
+}
+.register-input-captcha-container-error{
+    display: flex;
+    justify-content: flex-start;
+    margin-left:5.5rem;
+    margin-bottom: $l-size;
+    border: 1px solid red;
+}
+.register-input-captcha-text {
+    padding: 1rem;
+    width: 10rem;
+    font-family: $main-font-family;
+}
+.register-input-captcha-text-error {
+    padding: 1rem;
+    width: 10rem;
+    font-family: $main-font-family;
+    border: 1px solid red;
+}
+.register-input-captcha-text-error::-webkit-input-placeholder{
+    color:red;
+}
+.register-req-new-captcha-button{
+    border : none;
+    border-radius: 0;
+    background: $grey;
+    color: white;
+    font-size: 20px;
+    width: 9.4rem;
+    font-family: $main-font-family;  
+}

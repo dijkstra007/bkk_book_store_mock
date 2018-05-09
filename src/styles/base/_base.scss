@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: $dark-grey;
+  font-family:  $main-font-family;
+  font-size: $m-size;
+  line-height: 1.6;
+}
+
+button {
+  cursor: pointer;
+  font-family: $main-font-family;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.is-active {
+  font-weight: bold;
+}
+.text_is_valid {
+  color: rgb(126, 206, 5);
+}
+.text_is_invalid {
+  color: rgb(240, 53, 53);
+}
+.carousel .control-dots .dot{
+  opacity: 1;
+  background: #d2d2d2;
+  box-shadow: 0px 0px 0px #ffffff !important;
+  height: 15px;
+  width: 15px;
+}
+.carousel .control-dots .dot:hover{
+  background:  #78bcd8;
+  box-shadow: 0px 0px 0px #ffffff !important;
+  height: 15px;
+  width: 15px;
+}
+.carousel .control-dots .dot.selected{
+  background: #78bcd8;
+  box-shadow: 0px 0px 0px #ffffff !important;
+  height: 15px;
+  width: 15px;
+}
+.header-layout-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 390px;
+  height: 70px;
+  font-size: 35px;
+}
+.grey-line {
+  height: 1px;
+  width: auto;
+  background: $grey;
+  margin-top: 25px;
+  margin-bottom:20px;
+}
+
+.div-row{
+  display:flex;
+  flex-direction: row;
+  margin: 0;
+}
+.div-column{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.div-space-around {
+  justify-content: space-around;
+}
+.div-space-between {
+  justify-content: space-between;
+}
+.rotate0to90 {
+  animation: animation-spin0to90 0.1s forwards;
+  -moz-animation: animation-spin0to90 0.1s forwards;
+  -webkit-animation: animation-spin0to90 0.1s forwards;
+  -o-animation: animation-spin0to90 0.1s forwards;
+}
+.rotate90to0 {
+  animation: animation-spin90to0 0.1s forwards;
+  -moz-animation: animation-spin90to0 0.1s forwards;
+  -webkit-animation: animation-spin90to0 0.1s forwards;
+  -o-animation: animation-spin90to0 0.1s forwards;
+}
+@keyframes animation-spin0to90 {
+  from { transform: rotate(0deg);}
+  to  { transform: rotate(90deg);}
+}
+@keyframes  animation-spin90to0 {
+  from { transform: rotate(90deg);}
+  to  { transform: rotate(0deg);}
+}
