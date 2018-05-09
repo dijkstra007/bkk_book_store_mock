@@ -15,7 +15,7 @@
       }
     ],
     "styled-jsx/babel",
-    ["transform-define", "./env.config.js"]
+    ["transform-define"]
   ],
   "presets": [
     "es2015",
